@@ -2,12 +2,22 @@
 using namespace std;
 
 int main(){
-    int n;
+    long long n;
     cin>>n;
+    int count=0;
     while(n>0){
-        int digits = n%10;
-        
+        int digit = n%10;
+        if(digit==7 or digit==4){
+            count++;
+        }
+        n=n/10;
     }
-    
+        if(count==4 or count==7){
+            cout<<"YES";
+        }
+        else{
+            cout<<"NO";
+        }
+
     return 0;
 }
