@@ -1,2 +1,6 @@
-a=a*3;
-            // b=b*2;
+#include<iostream>
+using namespace std;
+
+int main(){
+    string s, t;
+    cin>>s>>t;
