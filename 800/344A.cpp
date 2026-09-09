@@ -14,7 +14,7 @@ int main(){
         int temp=digit;
         if(digit==0){
             if(digit==1){
-                count++;
+                count=count+2;
             }
         }
         else if(digit==1){ 
